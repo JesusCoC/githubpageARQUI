@@ -1,0 +1,178 @@
+.contenido {
+    max-width: 90%; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centra el contenido en la página */
+    padding: 20px; /* Espacio alrededor del contenido */
+    background-color: #f9f9f9; /* Color de fondo del contenido */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.subtitulo {
+    font-size: 2em; /* Tamaño de fuente del subtítulo */
+    color: #892020; /* Color del texto */
+    margin-left: 10%;
+}
+
+.subtitulo2 {
+    font-size: 1.6em; /* Tamaño de fuente del subtítulo */
+    color: #000000; /* Color del texto */
+    margin-left: 7%;
+}
+
+.texto {
+    color: #000000; /* Color del texto */
+    font-size: 22px;
+}
+
+.textotab {
+    color: #000000; /* Color del texto */
+    font-size: 22px;
+    padding-left: 50px;
+}
+
+.negritas {
+    color: #000000; /* Color del texto */
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.lista {
+    margin-top: 10px; /* Espacio superior de la lista */
+    padding-left: 20px; /* Tabulación de la lista */
+}
+
+.lista li {
+    font-size: 1.4em; /* Tamaño de fuente del subtítulo */
+    color: #801b1b; /* Color del texto */
+    padding-left: 50px;
+}
+
+.lista p {
+    font-size: 1.4em; /* Tamaño de fuente del subtítulo */
+    color: #000000; /* Color del texto */
+    padding-left: 50px;
+}
+
+
+.imagen {
+    display: block; /* Muestra la imagen como bloque para ajustar el tamaño */
+    max-width: 70%; /* Ancho máximo de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-top: 20px; /* Espacio superior de la imagen */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Encabezado */
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #890c32;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 25px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    background: #d23d6a;
+}
+
+body {
+    text-align: justify;
+    font-family: sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}   
+
+.contenedor {
+    text-align: center; /* Centra los elementos en el contenedor */
+}
+
+.boton {
+    display: inline-block; /* Muestra los botones en línea */
+    padding: 10px 20px; /* Ajusta el espacio interior del botón */
+    margin: 10px; /* Ajusta el margen entre los botones */
+    background-color: #800000; /* Color de fondo guinda */
+    color: #fff; /* Color de texto blanco */
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+    border: none; /* Elimina los bordes del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+}
+
+/*-----------------------------------*/
+
+.dropdown {
+    display:contents;
+    position: relative;
+  }
+  
+  button{
+    border:none;
+    border-radius:0px;
+    padding:15px 30px;
+    font-size:18px;
+    cursor:pointer;
+  }
+  
+  button:hover{
+    background-color:#a95959;
+  }
+  
+  .dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    background-color:#ffffff;
+    border-radius:5px;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  
+  .dropdown:hover .dropdown-options {
+    display: block;
+  }
+  
+  .dropdown-options a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    padding:5px 100px;
+  }
+  
+  .dropdown-options a:hover {
+    color: #0a0a23;
+    background-color: #dbd2d2;
+    border-radius:5px;
+  }
